@@ -1,0 +1,296 @@
+.contenedor{
+    padding: 0;
+    margin-top: 6%;
+    text-align: center;
+}
+/*Diseño de grid principal*/
+.contenedor #grids{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 90px;
+    justify-content: center;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.contenedor .texto-principal h2{
+    font-size: 60px;
+    font-weight: 900;
+    text-shadow: 1px 1px #0078ff;
+}
+
+.contenedor .texto-principal p{
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.contenedor #grids img{
+    width: 330px;
+    height: 310px;
+    cursor: pointer;
+    transition:  2s;
+    text-align: center;
+    object-fit: cover;
+}
+
+/*borde**/
+
+.contenedor .borde-produc{
+    position: relative;
+    left: 47%;
+    width:100px;
+    border-bottom: 7px solid #0078ff;
+    top: 20px;
+}
+/*Diseño de primer grid*/
+.contenedor #grids .grid1{
+    width: 350px;
+    padding-bottom: 20px;
+    border-radius: 1px;
+    
+}
+.contenedor #grids .grid1:hover{
+    border-bottom: 4px solid #0078ff;
+}
+.contenedor #grids .grid1 h2{
+    margin-top: 10px;
+}
+
+.contenedor #grids .grid1 p{
+    margin-top: 10px;
+}
+.contenedor #grids .grid1 span{
+    text-decoration: line-through;
+}
+
+.contenedor #grids .grid1 .list-img1{
+    transition: width height;
+
+}
+
+.contenedor #grids .grid1 img:hover{
+     width: 350px ;
+     height: 340px;
+     
+}
+
+
+
+/*Diseño de segundo grid*/
+.contenedor #grids .grid2{
+    width: 350px;
+    margin-right: 30px;
+    padding-bottom: 20px;
+    border-radius: 1px;
+    margin-left: 30px;
+}
+.contenedor #grids .grid2:hover{
+
+    border-bottom: 4px solid #0078ff;
+}
+
+.contenedor #grids .grid2 h2{
+    margin-top: 10px;
+}
+
+.contenedor #grids .grid2 p{
+    margin-top: 10px;
+}
+.contenedor #grids .grid2 span{
+    text-decoration: line-through;
+}
+
+.contenedor #grids .grid2 .list-img2{
+    transition: width height;
+
+}
+
+.contenedor #grids .grid2 img:hover{
+     width:350px ;
+     height: 340px;
+     
+}
+
+
+/*Diseño de tercer grid*/
+.contenedor #grids .grid3{
+    width: 350px;
+    padding-bottom: 20px;
+    border-radius: 1px;
+    margin-left: 30px;
+}
+
+.contenedor #grids .grid3:hover{
+ 
+    border-bottom: 4px solid #0078ff;
+}
+
+.contenedor #grids .grid3 h2{
+    margin-top: 10px;
+}
+
+.contenedor #grids .grid3 p{
+    margin-top: 10px;
+}
+.contenedor #grids .grid3 span{
+    text-decoration: line-through;
+}
+
+
+.contenedor #grids .grid3 .list-img3{
+    transition: width height;
+
+}
+
+.contenedor #grids .grid3 img:hover{
+     width: 350px ;
+     height: 340px;
+     
+}
+
+
+/*Diseño de cuarto grid*/
+.contenedor #grids .grid4{
+    width: 350px;
+    padding-bottom: 20px;
+    border-radius: 1px;
+    
+}
+.contenedor #grids .grid4:hover{
+ 
+    border-bottom: 4px solid #0078ff;
+}
+
+.contenedor #grids .grid4 h2{
+    margin-top: 10px;
+}
+
+.contenedor #grids .grid4 p{
+    margin-top: 10px;
+}
+.contenedor #grids .grid4 span{
+    text-decoration: line-through;
+}
+
+.contenedor #grids .grid4 .list-img4{
+    transition: width height;
+
+}
+
+.contenedor #grids .grid4 img:hover{
+     width: 350px ;
+     height: 340px;
+     
+}
+
+/*Diseño de quinto grid*/
+
+.contenedor #grids .grid5{
+    width: 350px;
+    margin-right: 30px;
+    padding-bottom: 20px;
+    border-radius: 1px;
+    margin-left: 30px;
+}
+.contenedor #grids .grid5:hover{
+
+    border-bottom: 4px solid #0078ff;
+}
+
+.contenedor #grids .grid5 h2{
+    margin-top: 10px;
+}
+
+.contenedor #grids .grid5 p{
+    margin-top: 10px;
+}
+.contenedor #grids .grid5 span{
+    text-decoration: line-through;
+}
+
+.contenedor #grids .grid5 .list-img5{
+    transition: width height;
+
+}
+
+.contenedor #grids .grid5 img:hover{
+     width:350px ;
+     height: 340px;
+     
+}
+/*Diseño de sexto grid*/
+.contenedor #grids .grid6{
+    width: 350px;
+    padding-bottom: 20px;
+    border-radius: 1px;
+    margin-left: 30px;
+}
+
+.contenedor #grids .grid6:hover{
+ 
+    border-bottom: 4px solid #0078ff;
+}
+
+.contenedor #grids .grid6 h2{
+    margin-top: 10px;
+}
+
+.contenedor #grids .grid6 p{
+    margin-top: 10px;
+}
+.contenedor #grids .grid6 span{
+    text-decoration: line-through;
+}
+
+
+.contenedor #grids .grid6 .list-img6{
+    transition: width height;
+
+}
+
+.contenedor #grids .grid6 img:hover{
+     width: 350px ;
+     height: 340px;
+     
+}
+
+footer{
+    background:rgb(18, 23, 27);
+    padding: 30px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+    border-top: 2px solid #0078ff;
+    margin-top: 70px;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 2px solid #0078ff;
+}
+
+.content-foo{
+    text-align: center;
+}
+
+.content-foo h4{
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+    border-bottom: 3px solid #0078ff;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.content-foo p{
+    color: #ffffff;
+    font-size: 19px;
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 19px;
+    margin: 20px 0 0 0;
+    color: #ffffff;
+}

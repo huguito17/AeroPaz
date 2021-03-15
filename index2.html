@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vuelos</title>
+    <link rel="stylesheet" href="./css/vuelos.css">
+    <link rel="stylesheet" href="./css/menu.css">
+
+</head>
+<body>
+    <header>
+        <a href="index.html" class="logo">Aereolinea 504<span>.</span></a>
+          <ul class="navigation">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="#contenedor ">Vuelos</a></li>
+            <li><a href="info.HTML">Acerca de</a></li>
+        
+        </ul>
+        </header>   
+        <script type="text/javascript">
+            window.addEventListener("scroll", function () {
+            const header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+            });
+        </script>
+
+    <div class="contenedor" id="services">
+        <div class="texto-principal">
+        <h2>Vuelos</h2>
+        <p id="descripcion-grid">Con nosotros encuentras los mejores vuelos para que explores el mundo</p>
+        </div>
+        
+        <div id="grids">
+            <section class="grid1">
+                <div class="list-img1">
+                    <img src="./img/miami.jpg" id="img-grid1" alt="">
+                </div>
+                <div class="txt-grid1">
+                <h2>Miami</h2>
+                <p>$186.00</p>
+                </div>              
+            </section>
+            
+            <section class="grid2">
+                <div class="list-img2">
+                <img src="./img/chile.jpg" id="img-grid2" alt="">
+                </div>
+                <div class="txt-grid2">
+                <h2>Chile</h2>
+                <p>$410.00 </p>
+                </div>              
+            </section>
+            
+            <section class="grid3">
+                <div class="list-img3">
+                    <img src="./img/mexico.jpg" id="img-grid3" alt="">
+                </div>
+                <div class="txt-grid3">
+                    <h2>Mexico</h2>
+                    <p>$376.00</p>
+                </div>
+            </section>
+        </div>
+
+        <div id="grids">
+            <section class="grid4">
+                <div class="list-img4">
+                <img src="./img/guatemala.jpg" id="img-grid4" alt="">
+                </div>
+                <div class="txt-grid4">
+                <h2>Guatemala</h2>
+                <p>$34.00</p>
+                </div>
+            </section>
+
+            <section class="grid5">
+                <div class="list-img5">
+                <img src="./img/salvador.jpg" id="img-grid5" alt="">
+                </div>
+                <div class="txt-grid5">
+                <h2>Salvador</h2>
+                <p>$70.00</p>
+                </div>
+            </section>
+
+            <section class="grid6">
+                <div class="list-img6">
+                <img src="./img/Roa.jpg" id="img-grid6" alt="">
+                </div>
+                <div class="txt-grid6">
+                <h2>Roatán</h2>
+                <p>$127.00</p>
+                </div>
+            </section>
+
+            </section>
+
+        </div>
+    </div>
+      </section>
+
+      <footer>
+        <div class="contenedor-footer">
+            <div class="content-foo">
+                <h4>Telefono</h4>
+                <p>+(504) 9859-0618</p>
+            </div>
+            <div class="content-foo">
+                <h4>Correo</h4>
+                <p>Aero504@Gmail.com</p>
+            </div>
+            <div class="content-foo">
+                <h4>Sede Principal</h4>
+                <p>Plaza miraflores, Tegucigalpa</p>
+            </div>
+        </div>
+        <h2 class="titulo-final">&copy; Aerolinea 504 | Jorge Paz</h2>
+    </footer>
+</body>
+</html>

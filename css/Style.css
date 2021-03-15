@@ -1,0 +1,135 @@
+#id{
+    position: relative;
+    top: 10%;
+}
+.contenedor {
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+.titulo {
+    color: #000000;
+    text-shadow: 0px 0px 2px black;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 70px;
+}  
+main .sobre-nosotros{
+    padding: 40px 0 10px 0;
+}
+#T .sobre-nosotros{
+    padding: 30px 0 30px 0;
+}
+#T img{
+    object-fit: cover;
+} 
+#T p{
+    color: rgb(31, 31, 44);
+    text-align: justify;
+    font-size: 17px;
+}
+.conten{
+    display: flex;
+    justify-content: space-evenly;
+}
+.imagen-about-us{
+    width: 48%;
+}
+.sobre-nosotros .contenido-textos{
+    width: 50%;
+    margin-left: 10px;
+}
+.contenido-textos h3{
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+.contenido-textos h3 span{
+    background: #5f9d07;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 2px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    margin-right: 5px;
+}
+.contenido-textos p{
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: left;
+}
+@media screen and (max-width:900px){
+    .conten{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .sobre-nosotros .contenido-textos{
+        width: 90%;
+    }
+    .imagen-about-us{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:500px){
+    /* ABOUT US */
+    .imagen-about-us{
+        margin-bottom: 60px;
+        width: 99%;
+    }
+    .sobre-nosotros .contenido-textos{
+        width: 95%;
+    }
+    .titulo {
+        font-size: 23px;
+    }  
+}
+
+footer{
+    background:rgb(18, 23, 27);
+    padding: 30px 0 30px 0;
+    margin: auto;
+    overflow: hidden;
+    border-top: 2px solid #0078ff;
+    margin-top: 70px;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 2px solid #0078ff;
+}
+
+.content-foo{
+    text-align: center;
+}
+
+.content-foo h4{
+    color: #ffffff;
+    font-size: 19px;
+    border-bottom: 3px solid #0078ff;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.content-foo p{
+    color: #ffffff;
+    font-size: 19px;
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 19px;
+    margin: 20px 0 0 0;
+    color: #ffffff;
+}
